@@ -181,14 +181,17 @@ export function Projects() {
                 ))}
               </ul>
               <div className="mt-7 flex flex-wrap gap-3 pt-1">
-                <Button variant="outline" size="sm" disabled title="Repository link coming soon">
-                  <Github className="size-4" /> GitHub
+                <Button asChild variant="outline" size="sm">
+                  <a href={project.githubUrl} target="_blank" rel="noreferrer noopener">
+                    <Github className="size-4" /> GitHub
+                  </a>
                 </Button>
-                <Button size="sm" disabled title="Project link coming soon">
-                  <ExternalLink className="size-4" /> View Project
+                <Button asChild size="sm" className="bg-gradient-brand">
+                  <a href={project.githubUrl} target="_blank" rel="noreferrer noopener">
+                    <ExternalLink className="size-4" /> View Project
+                  </a>
                 </Button>
               </div>
-              <p className="mt-3 text-xs text-muted-foreground">Links coming soon.</p>
             </article>
           </Reveal>
         ))}
