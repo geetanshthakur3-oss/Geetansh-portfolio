@@ -62,6 +62,8 @@ export const PROJECTS = [
     title: "Student Record Management System",
     tech: "C++",
     highlight: "OOP + File Handling",
+    githubUrl: "https://github.com/geetanshthakur3-oss/student-record-managment-system",
+projectUrl: "https://github.com/geetanshthakur3-oss/student-record-managment-system",
     description:
       "A console-based student record management application built using Object-Oriented Programming and File Handling.",
     features: [
@@ -77,6 +79,8 @@ export const PROJECTS = [
     title: "Banking Management System",
     tech: "C++",
     highlight: "C++ + OOP + File Storage",
+    githubUrl: "https://github.com/geetanshthakur3-oss/Banking-mangment-system",
+projectUrl: "https://github.com/geetanshthakur3-oss/Banking-mangment-system",
     description:
       "A menu-driven banking application demonstrating core programming, OOP and file-storage concepts.",
     features: [
